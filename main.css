@@ -3,16 +3,34 @@ body {
   color: white;
 }
 h1 {
+  font-family: 'Rock Salt', cursive;
   margin-top: 20%;
   padding: 30px;
-  size:
+  font-size: 50px;
 }
 h2 {
-  padding: 30px;
+  padding: 20px;
+  font-size: 40px;
 }
 .btn {
+  font-family: 'Rock Salt', cursive;
   margin: 30px;
+  font-size: 30px;
 }
 .quotes {
-  background-color: grey;
+  background-color: black;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 20px;
+  height: auto;
+}
+.quote {
+  font-size: 50px;
+}
+.author {
+  font-size: 40px;
 }
