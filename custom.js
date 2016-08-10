@@ -9,5 +9,5 @@ $(document).ready(function(){
     $(".quote").text(randomQuote);
     $(".author").text(randomAuthor);
   }
-  $(".btn").on("click", getQuote);
+  $("#newQuote").on("click", getQuote);
 });
