@@ -1,3 +1,22 @@
+
+@-webkit-keyframes flipper {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+keyframes flipper {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
 body {
   background-image: url(http://www.thegraphicmac.com/wp-content/uploads/ps_subtle-patterns.jpg);
   color: white;
@@ -12,6 +31,10 @@ h2 {
   padding: 20px;
   font-size: 40px;
 }
+.container-fluid {
+  perspective: 1000px;
+}
+
 .btn {
   font-family: 'Rock Salt', cursive;
   margin: 30px;
@@ -29,6 +52,12 @@ h2 {
   padding: 20px;
   height: auto;
 }
+
+.flipped {
+  webkit-animation: flipper 300ms ease-in-out forwards;
+  animation: flipper 300ms ease-in-out forwards;
+}
+
 .quote {
   font-size: 50px;
 }

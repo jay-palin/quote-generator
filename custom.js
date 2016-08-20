@@ -6,6 +6,7 @@ $(document).ready(function(){
     var randomNum = Math.floor((Math.random()*quotes.length));
     var randomQuote = quotes[randomNum];
     var randomAuthor = authors[randomNum];
+    $(".quotes").replaceWith("<div class='quotes flipped'><span class='quote'></span><span class='author'></span></div>");
     $(".quote").text(randomQuote);
     $(".author").text(randomAuthor);
   }
