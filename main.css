@@ -40,6 +40,11 @@ h2 {
   margin: 30px;
   font-size: 30px;
 }
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
 .quotes {
   background-color: black;
   width: 45%;
